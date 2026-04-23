@@ -2,10 +2,34 @@
 <head> HOLA </head>
 <body> 
     <h1>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum harum molestias id temporibus fugiat, iure eaque veniam, facere sequi, explicabo deserunt nostrum eveniet. Quis dolores incidunt aliquam, facere molestiae aspernatur.
+        Lorena ipsum dolor sit amet, consectetur adipisicing elit. Cum harum molestias id temporibus fugiat, iure eaque veniam, facere sequi, explicabo deserunt nostrum eveniet. Quis dolores incidunt aliquam, facere molestiae aspernatur. Ej Cambio de ortografía
     </h1>
     <h2>
-        Adios
+        Adiós
     </h2>
     <h1>Hola, esta linea de codigo fue agregada por tu compañero Ariel Roldan en colaboracion para el TP5</h1>
-</body>
+
+<form action="/enviar" method="POST">
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <div>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    </div>
+
+    <div>
+        <label for="telefono">Telefono:</label>
+        <textarea id="telefono" name="telefono"  required></textarea>
+    </div>
+
+    <button type="submit">Enviar</button>
+</form>
+
